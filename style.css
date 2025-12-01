@@ -32,9 +32,24 @@ body{
     color:blue;
 }
 
-@media screen and(min-width:576px)
+@media screen and (min-width:576px)
 {
     .container{background-color:var(--color-mob)}
+}
+
+@media screen and (min-width:768px)
+{
+    .container{background-color:var(--color-tab)}
+}
+
+@media screen and (min-width:992px)
+{
+    .container{background-color:var(--color-Laptop)}
+}
+
+@media screen and (min-width:1200px)
+{
+    .container{background-color:var(--color-Desktop)}
 }
 
  /* Mobile -> 576px
